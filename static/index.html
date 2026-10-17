@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SourceDesk</title>
+  <!-- Local files only. The deploy host may block CDN links. -->
+  <link rel="stylesheet" href="/static/styles.css?v=7">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <strong>SourceDesk</strong>
+      <span class="badge">Sample catalog, fictional data</span>
+    </div>
+    <nav id="stepper" aria-label="Sourcing stages"></nav>
+  </header>
+  <div id="error" class="error" hidden role="alert"></div>
+  <div class="layout">
+    <section id="main" aria-live="polite"></section>
+    <aside class="agent" aria-label="Agents">
+      <div class="tabs" role="tablist">
+        <button type="button" id="tab-chat" role="tab" aria-selected="true">Chat</button>
+        <button type="button" id="tab-log" role="tab" aria-selected="false">Activity</button>
+      </div>
+      <div id="agent-body"></div>
+      <form id="composer">
+        <label for="reply">Message Maya</label>
+        <input id="reply" name="reply" type="text" autocomplete="off" placeholder="Refine the search">
+        <button type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+  <footer id="footer" class="footer" hidden>
+    <p id="approved-count">0 approved</p>
+    <button type="button" id="back-stage" hidden>Back to suppliers</button>
+    <button type="button" id="continue">Continue to suppliers</button>
+  </footer>
+  <script src="/static/app.js?v=7"></script>
+</body>
+</html>

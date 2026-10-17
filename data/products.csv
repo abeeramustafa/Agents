@@ -1,0 +1,64 @@
+product_id,name,category,subcategory,market_wholesale_price_usd,retail_price_usd,min_order_qty,monthly_search_index,avg_rating,review_count,competitor_count,trend,return_rate_pct,notes
+P001,True Wireless Earbuds Basic,Audio,True Wireless Earbuds,6.5,19.99,100,92,4.1,18400,410,stable,9.5,Highly saturated; thin margins unless branded
+P002,True Wireless Earbuds ANC Mid-Range,Audio,True Wireless Earbuds,14.0,39.99,100,78,4.3,9200,190,rising,7.0,Noise cancelling at a mid price point is gaining demand
+P003,Mini Bluetooth Speaker,Audio,Bluetooth Speakers,5.8,17.99,100,70,4.2,12600,260,stable,6.5,
+P004,Waterproof Bluetooth Speaker 20W,Audio,Bluetooth Speakers,13.5,36.99,50,74,4.4,7100,140,rising,5.0,Outdoor use drives seasonal peaks
+P005,Neckband Bluetooth Earphones,Audio,Earphones,4.2,12.99,200,55,4.0,5300,170,declining,8.0,Declining as true wireless earbuds get cheaper
+P006,USB Wired Gaming Headset,Audio,Headsets & Headphones,9.0,27.99,50,60,4.2,6400,120,stable,6.0,
+P007,Wireless Over-Ear Headphones,Audio,Headsets & Headphones,16.5,44.99,50,66,4.3,5800,130,stable,5.5,
+P008,Clip-On Lavalier Microphone,Audio,Microphones,3.2,14.99,100,63,4.1,3900,80,rising,4.5,Creator economy driver; low return rate
+P009,USB Condenser Microphone,Audio,Microphones,11.0,34.99,50,58,4.3,4300,95,rising,5.0,
+P010,Wi-Fi Smart Plug 2-Pack,Smart Home,Smart Plugs,7.5,22.99,100,68,4.3,8800,150,stable,4.0,
+P011,Smart LED Bulb RGB,Smart Home,Smart Lighting,3.4,11.99,200,61,4.2,6700,210,stable,3.5,
+P012,Wi-Fi LED Strip Lights 5m,Smart Home,Smart Lighting,6.2,19.99,100,82,4.2,14100,300,stable,5.0,Seasonal spikes in Q4
+P013,Wi-Fi Video Doorbell,Smart Home,Doorbells & Sensors,19.0,54.99,30,64,3.9,4100,110,rising,11.0,Higher return rate; firmware quality varies
+P014,Motion Sensor Night Light,Smart Home,Sensors,2.1,8.99,300,49,4.4,3200,90,stable,2.5,
+P015,Smart Temperature & Humidity Sensor,Smart Home,Sensors,5.0,16.99,100,44,4.3,2100,55,rising,3.0,Low competition niche
+P016,Entry-Level Robot Vacuum,Smart Home,Robot Vacuums,62.0,139.99,10,72,3.9,5200,80,rising,13.0,High value but high returns and support burden
+P017,Smart Wall Touch Switch,Smart Home,Smart Controls,9.5,28.99,50,38,4.1,1500,40,stable,6.0,Region-specific wiring standards
+P018,Smart IR Remote Hub,Smart Home,Smart Controls,8.0,24.99,50,41,4.2,1900,45,stable,4.0,
+P019,Silicone Phone Case (Assorted Models),Mobile Accessories,Cases & Protection,0.9,7.99,500,88,4.3,31200,900,stable,3.0,Extremely saturated; model-specific inventory risk
+P020,Tempered Glass Screen Protector 2-Pack,Mobile Accessories,Cases & Protection,0.7,6.99,500,80,4.4,27500,700,stable,2.5,Model-specific inventory risk
+P021,Magnetic Phone Car Mount,Mobile Accessories,Car Accessories,3.1,14.99,100,65,4.3,7300,160,stable,3.5,
+P022,Phone Tripod with Bluetooth Remote,Mobile Accessories,Creator Accessories,3.8,15.99,100,59,4.2,4600,100,rising,4.0,
+P023,10-inch Selfie Ring Light,Mobile Accessories,Creator Accessories,4.5,16.99,100,62,4.1,5100,140,stable,5.0,
+P024,Phone Grip Holder,Mobile Accessories,Grips & Holders,0.6,5.99,500,52,4.4,8800,330,declining,1.5,Very low price point; margin in volume only
+P025,Magnetic Wallet Card Holder,Mobile Accessories,Grips & Holders,2.4,12.99,200,57,4.0,3600,120,rising,4.5,
+P026,Waterproof Phone Pouch,Mobile Accessories,Cases & Protection,0.8,6.99,300,46,4.0,2800,85,stable,5.0,
+P027,Phone Cooling Fan Clip,Mobile Accessories,Gaming Accessories,4.0,15.99,100,40,3.9,1800,40,rising,7.0,Niche gaming accessory
+P028,Basic Fitness Band,Wearables,Fitness Trackers,11.0,29.99,50,76,4.0,11800,230,stable,10.0,
+P029,Smartwatch with Calling,Wearables,Smartwatches,18.5,49.99,30,85,4.1,13900,280,rising,9.0,Strong demand but crowded; differentiate on battery or features
+P030,Kids GPS Smartwatch,Wearables,Smartwatches,24.0,64.99,30,54,3.8,2400,35,rising,12.0,Low competition; safety certification needed
+P031,Silicone Watch Bands Multi-Size,Wearables,Watch Accessories,1.1,8.99,300,61,4.4,9200,410,stable,2.5,
+P032,Bluetooth Item Tracker 4-Pack,Wearables,Trackers,9.0,27.99,100,71,4.3,6100,95,rising,3.5,Platform compatibility matters
+P033,Pet GPS Tracker Collar,Wearables,Trackers,14.0,39.99,30,47,3.9,2200,45,rising,9.0,
+P034,Sports Armband Phone Holder,Wearables,Sports Accessories,1.4,8.99,200,43,4.2,3100,120,stable,3.0,
+P035,Bluetooth Audio Sunglasses,Wearables,Smart Eyewear,14.5,39.99,30,39,3.8,1100,25,rising,10.0,Novelty product; high return rate
+P036,Heart Rate Chest Strap,Wearables,Fitness Trackers,9.0,27.99,50,33,4.3,1400,30,stable,3.5,
+P037,2.4GHz Wireless Mouse,Computer Accessories,Mice,2.8,11.99,200,78,4.3,16200,380,stable,3.5,
+P038,Mechanical Keyboard TKL 87-Key,Computer Accessories,Keyboards,17.0,44.99,30,77,4.4,8400,160,rising,5.0,
+P039,Wireless Keyboard and Mouse Combo,Computer Accessories,Combos,7.5,24.99,100,70,4.2,9700,190,stable,4.0,
+P040,USB-C Hub 7-in-1,Computer Accessories,Hubs & Docks,9.5,29.99,50,81,4.2,12400,250,stable,6.0,Compatibility complaints drive returns
+P041,Adjustable Aluminum Laptop Stand,Computer Accessories,Stands,7.0,24.99,100,69,4.5,8100,140,rising,2.5,Work-from-home driver; low returns
+P042,1080p Webcam with Microphone,Computer Accessories,Webcams,10.5,32.99,50,64,4.1,6900,110,stable,6.5,
+P043,15-inch Laptop Sleeve,Computer Accessories,Bags & Sleeves,3.6,14.99,100,58,4.4,5300,260,stable,2.0,
+P044,NVMe SSD Enclosure USB-C,Computer Accessories,Storage,6.5,21.99,50,56,4.4,3700,70,rising,4.0,
+P045,XL Gaming Mouse Pad,Computer Accessories,Desk Accessories,3.0,13.99,100,63,4.5,9100,300,stable,1.5,
+P046,65W GaN Wall Charger,Power & Charging,Chargers,8.0,27.99,100,86,4.5,15800,210,rising,3.5,High demand; CE/FCC certification matters
+P047,USB-C Fast Charging Cable 2m 3-Pack,Power & Charging,Cables,2.2,11.99,300,83,4.4,24100,580,stable,3.0,
+P048,10000mAh Power Bank,Power & Charging,Power Banks,7.0,24.99,100,84,4.3,18300,340,stable,5.5,Battery shipping restrictions apply
+P049,20000mAh 22.5W Power Bank,Power & Charging,Power Banks,12.5,34.99,50,79,4.4,10200,220,rising,5.0,Battery shipping restrictions apply
+P050,15W Wireless Charging Pad,Power & Charging,Wireless Charging,4.5,17.99,100,73,4.2,9600,250,stable,5.0,
+P051,3-in-1 Wireless Charging Stand,Power & Charging,Wireless Charging,13.0,39.99,50,60,4.1,3900,90,rising,7.0,
+P052,Dual USB-C 45W Car Charger,Power & Charging,Car Chargers,3.4,14.99,100,68,4.4,7200,190,stable,3.5,
+P053,Surge Protector Power Strip with USB,Power & Charging,Power Strips,7.8,24.99,50,59,4.5,5500,120,stable,2.5,Region-specific plug types
+P054,Portable Solar Panel Charger,Power & Charging,Solar Chargers,9.5,29.99,30,37,3.8,1600,60,stable,8.0,
+P055,Indoor Wi-Fi Security Camera 2K,Cameras & Security,Security Cameras,11.5,32.99,50,79,4.2,14200,260,rising,6.0,
+P056,Outdoor Solar Security Camera,Cameras & Security,Security Cameras,28.0,79.99,20,66,3.9,3500,55,rising,10.0,"Higher price, low competition; check battery and solar specs"
+P057,4K Waterproof Action Camera,Cameras & Security,Action Cameras,26.0,69.99,20,61,3.9,4700,90,stable,9.0,
+P058,1080p Front Dash Cam,Cameras & Security,Dash Cams,14.0,39.99,30,63,4.1,5200,100,stable,7.5,
+P059,Baby Monitor with Camera,Cameras & Security,Baby Monitors,21.0,59.99,20,52,4.0,2400,40,stable,8.0,Safety certifications required in many markets
+P060,Portable 1080p Mini Projector,Cameras & Security,Projectors,38.0,99.99,15,70,3.8,6100,85,rising,12.0,High return rate; set realistic brightness expectations
+P061,1.6m Camera Tripod Stand,Cameras & Security,Camera Accessories,5.5,19.99,50,54,4.4,3000,95,stable,2.5,
+P062,Camera Lens Cleaning Kit,Cameras & Security,Camera Accessories,1.5,9.99,200,32,4.5,1800,60,stable,1.0,
+P063,Portable Photo Printer,Cameras & Security,Photo Printers,32.0,84.99,15,45,3.9,1500,30,rising,10.0,Consumables cost affects repeat purchases
