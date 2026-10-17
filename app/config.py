@@ -53,7 +53,7 @@ def load_settings() -> Settings:
         llm_base_url=os.getenv("LLM_BASE_URL", "").strip(),
         llm_api_key=os.getenv("LLM_API_KEY", "").strip(),
         llm_model=os.getenv("LLM_MODEL", "").strip(),
-        port=_as_int("PORT", 8000),
+        port=_as_int("PORT", 3000),
         enable_auditor=_as_bool("ENABLE_AUDITOR", True),
         cost_allowance=_as_float("COST_ALLOWANCE", 0.40),
     )

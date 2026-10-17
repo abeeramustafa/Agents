@@ -15,14 +15,14 @@ python -m venv .venv
 pip install -r requirements.txt
 copy .env.example .env
 # Edit .env. Save as a file named exactly .env, not .env.txt.
-.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000
+.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 3000
 ```
 
-Open http://127.0.0.1:8000
+Open http://127.0.0.1:3000
 
-Health check: http://127.0.0.1:8000/health
+Health check: http://127.0.0.1:3000/health
 
-LLM smoke test: http://127.0.0.1:8000/api/llm-check
+LLM smoke test: http://127.0.0.1:3000/api/llm-check
 
 One process only. Session state is in memory, so a second worker would not see your tab.
 
@@ -35,7 +35,7 @@ Copy `.env.example` to `.env` in this folder. The app reads:
 | `LLM_BASE_URL` | OpenAI-compatible API root. Groq: `https://api.groq.com/openai/v1` |
 | `LLM_API_KEY` | Secret. Never commit it |
 | `LLM_MODEL` | Model id from that provider |
-| `PORT` | Listen port, default `8000`. Must match the Docker/host port |
+| `PORT` | Listen port, default `3000`. Must match the Docker/host port |
 | `ENABLE_AUDITOR` | Run Karim on Omar and Lina, default `true` |
 | `COST_ALLOWANCE` | Cost share of retail price, default `0.40` |
 
@@ -63,15 +63,15 @@ Also click a product with risk flags, pick a flagged supplier, and confirm the p
 
 ```powershell
 docker build -t sourcedesk .
-docker run --rm -p 8000:8000 --env-file .env sourcedesk
+docker run --rm -p 3000:3000 --env-file .env sourcedesk
 ```
 
-The container listens on `0.0.0.0` and `${PORT:-8000}` with one worker.
+The container listens on `0.0.0.0` and `${PORT:-3000}` with one worker.
 
 ## Alternate Clouds
 
 1. Push this folder as the Docker context (Dockerfile at the repo root).
-2. Set Variables: `LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`, `ENABLE_AUDITOR`, `COST_ALLOWANCE`, and `PORT=8000`.
+2. Set Variables: `LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`, `ENABLE_AUDITOR`, `COST_ALLOWANCE`, and `PORT=3000`.
 3. **Rebuild, then Deploy.** A variable change does not apply until you rebuild.
-4. `PORT` must match the Dockerfile (`8000` unless you change both).
+4. `PORT` must match the Dockerfile (`3000` unless you change both).
 5. Confirm `GET /health` returns `{"status":"ok"}`.
